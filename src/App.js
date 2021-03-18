@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Counter from './Counter'
 import CounterHooks from './CounterHooks'
 
-export const ThemeContext = React.createContext('red')
+export const ThemeContext = React.createContext('green')
 
 
 function App() {
