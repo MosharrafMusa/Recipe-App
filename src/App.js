@@ -4,7 +4,7 @@ function App() {
   return (
     <>
     <p>Welcome to Recipe App</p>
-    <Counter initialCount={0}/>
+    <Counter initialCount={5}/>
     </>
   );
 }
