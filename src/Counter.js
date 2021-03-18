@@ -11,10 +11,14 @@ export default class Counter extends Component {
     render() {
         return (
             <div>
-                <button>-</button>
+                <button onClick={()=>this.changeCount(-1)}>-</button>
                 <span>{this.state.count}</span>
-                <button>+</button>
+                <button onClick={()=>this.changeCount(1)}>+</button>
             </div>
         )
+    }
+    changeCount(amount){
+        this.setState(prevState=>{
+            return {count: prevState.count + amount}})
     }
 }
