@@ -1,11 +1,12 @@
 import React from 'react'
 import Recipe from './Recipe'
-function RecipeList() {
+function RecipeList(recipes) {
     return (
-        <>
-          <Recipe/>  
-          <Recipe/>  
-        </>
+        <div>
+           {recipes.map(recipe=>{
+              return <Recipe {...recipe}/>
+           })}
+        </div>
     )
 }
 
