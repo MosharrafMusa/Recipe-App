@@ -1,6 +1,12 @@
 import React from 'react'
 
-function Recipe({name, servings, cookTime, instructions}) {
+function Recipe(props) {
+    const {
+        name,
+        servings,
+        cookTime,
+        instructions
+        } = props
     return (
         <div>
            <div>
