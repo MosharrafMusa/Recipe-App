@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Ingridient() {
+function Ingredient() {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function Ingridient() {
     )
 }
 
-export default Ingridient
+export default Ingredient
