@@ -1,10 +1,15 @@
 import React from 'react'
 
-function IngredientList() {
+function IngredientList({ingredients}) {
+    const ingredientElements = ingredients.map(
+        ingredient =>{
+            return <Ingredient/>
+        }
+    )
     return (
-        <div>
-            
-        </div>
+        <>
+          
+        </>
     )
 }
 
